@@ -1,0 +1,321 @@
+header{
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(92, 168, 168);
+    align-items: center;
+}
+header img{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 20px 40px;
+    
+}
+
+header nav a{
+    padding: 40px;
+    font-size: 30px;
+    text-decoration: none;
+}
+header nav a:hover{
+    background-color: aliceblue;
+    font-size: 35px;
+    padding: 20px 10px;
+    color: black;
+    border-radius: 20px 40px;
+}
+#home{
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    background-color: rgb(92, 168, 168);
+   
+    
+}
+#home img{
+    padding: 20px 80px;
+}
+#home h2{
+    font-size: 40px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    padding: 0px 10px ;
+}
+#home button{
+    padding: 0px 20px;
+    width: 200px;
+    height: 50px;
+    background-color:green;
+    color: black;
+    position: relative;
+    bottom: -120px;
+    left: 140px;
+    border-radius: 20px 30px;
+    font-size: 20px;
+    color: white;
+}
+.images{
+    display: flex;
+   flex: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0px 50px;
+   
+    
+   
+}
+#Courses img{
+    width: 10vh;
+    height: 10vh;
+}
+#Courses legend{
+    text-align: center;
+    
+    border-radius: 20px;
+}
+#Courses fieldset{
+    background-color: rgb(92, 168, 168);
+    border-radius: 20px;
+    width: 20vh;
+}
+legend:hover{
+    transform: scale(1.25);
+}
+fieldset h2{
+    text-align: center;
+
+}
+#About{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+    column-gap: 60px;
+}
+#About img{
+    width: 80vh;
+    height: 40vh;
+    border-radius: 40% 20%;
+    position: relative;
+    top: 50px;
+}
+#About h2{
+    font-size: 40px;
+    text-align: center;
+}
+#About p{
+    font-size: 25px;
+}
+#About button{
+    padding: 0px 20px;
+    width: 200px;
+    height: 50px;
+    background-color:green;
+    color: black;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+    border-radius: 20px 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+.mentors{
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.mentors img{
+    width: 50vh;
+    height: 30vh;
+    
+}
+.mentors h4{
+    text-align: center;
+    font-size: 25px;
+}
+.mentors p{
+    position: relative;
+    top: -35px;
+    text-align: center;
+    font-size: 20px;
+}
+h3{
+    font-size: 40px;
+}
+.mentors .ratings{
+    position: relative;
+    top: -70px;
+    width: 20vh;
+    height: 12vh;
+    padding: 0px 80px;
+}
+#reasons{
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#reasons .text h2{
+    font-size: 30px;
+}
+#reasons .text p{
+    font-size: 20px;
+    padding: 20px 20px;
+
+}
+ul{
+    position: relative;
+    left: 100px;
+}
+li{
+    font-size: 20px;
+    padding: 10px;
+}
+#reasons .text{
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+}
+#reasons .images2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+}
+#reasons .images2 img{
+    width: 50vh;
+    height: 40vh;
+}
+button{
+    padding: 0px 20px;
+    width: 280px;
+    height: 50px;
+    background-color:green;
+    color: black;
+    position: relative;
+    bottom: -10px;
+    left: 140px;
+    border-radius: 20px 30px;
+    font-size: 20px;
+    color: white;
+}
+.feedbacks{
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.feedbacks img{
+    width: 50vh;
+    height: 40vh;
+    padding: 30px 10px;
+}
+.feedbacks p{
+    font-size: 20px;
+    padding: 0px 20px;
+    position: relative;
+    top: -40px;
+}
+h1{
+    font-size: 50px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact h2 {
+    text-align: center;
+  }
+  .flt{
+    float: right;
+  }
+  
+  .contact-info{
+   
+    margin-top: 60px;
+  }
+  .contact-form {
+    margin-top: 20px}
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .ftr{
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-around;
+    background-color: rgb(92, 168, 168)
+  }
+  .logo1{
+    position: relative;
+    top: 80px;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 20px 40px;
+  }
+  .logos img{
+    height: 5vh;
+    width: 5vh;
+  }
+  .images button{
+    width: 15vh;
+    height: 5vh;
+    background-color: green;
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    font-size: 12px;
+  }
+  .images button a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  #About button a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+  }
